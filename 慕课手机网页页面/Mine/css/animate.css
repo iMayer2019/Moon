@@ -1,0 +1,20 @@
+.screen-1__heading {
+    transition: all 1s;
+}
+
+.screen-1__heading_animate_init {
+    opacity: 0;
+    transform: translate(0, 100%);
+}
+
+.screen-1__heading_animate_done {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+/* 
+static 静态界面样式
+init 动画效果初始化样式
+done 动画效果最终样式
+*/
