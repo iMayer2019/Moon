@@ -1,0 +1,106 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 375px;
+	height: 766px;
+	background-image: linear-gradient(38deg, #00a680 0%, #18df84 100%);
+	font-family: PinFang-SC-Medium;
+}
+
+.head .image {
+	width: 375px;
+	height: 309px;
+}
+
+.loginpage {
+	position: relative;
+	width: 343px;
+	height: 457px;
+	background: #FFFFFF;
+	border-radius: 6px;
+	margin: 24px 16px 0 16px;
+	overflow: hidden;
+}
+
+
+.loginpage .mainpage {
+	position: relative;
+}
+
+
+.loginpage .imagecard{
+	
+	margin: 0 auto;
+    width: 288px;
+    height: 138px;
+	margin: 23px 27px 0 28px;
+	/* z-index: 1; */
+
+}
+.loginpage .successword{
+	display: block;
+	position: absolute;
+	font-size: 14px;
+	color: #00A680;
+	font-family: PingFangSC-Semibold;
+	letter-spacing: 0;
+	margin-top: -96px;
+	margin-left: 58px;
+	width: 98px;
+	height: 44px;
+	/* z-index:2; */
+	
+}
+
+
+.loginpage .button {
+	display: block;
+	margin: 0 auto;
+	width: 299px;
+	height: 42px;
+	margin-top: 11px;
+	background: #00A680;
+	border-radius: 21px;
+}
+
+.btn {
+	font-size: 17px;
+	color: #ffffff;
+	letter-spacing: 0;
+
+}
+
+.loginpage .image {
+	display: block;
+	position: absolute;
+	width: 263px;
+	height: 18px;
+	left: 50%;
+	margin-top: 32px;
+	margin-left: -131.5px;
+}
+
+.loginpage .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 272px; 
+	height: 130px;
+	margin-left: 32px;
+	margin-top: 70px;
+	margin-right: 39px;
+}
+
+.loginpage .content .text{
+	display: block;
+	font-size: 13px;
+	color: #333333;
+	letter-spacing: 0;
+	line-height: 13px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
